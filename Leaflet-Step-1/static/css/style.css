@@ -1,0 +1,44 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  padding: 10px;
+  /* line-height: 18px; */
+  color: #555;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.legend div i {
+  float: left;
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+  opacity: .7;
+}
+
+.legend div {
+  display: block;
+  margin: 4px auto;
+}
+
+  
+/* 
+.leaflet-bottom.leaflet-left {
+  width: 90%;
+}
+
+.leaflet-control-container .leaflet-timeline-controls {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 15px;
+} */
